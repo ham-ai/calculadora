@@ -19,31 +19,43 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <section>
-        <div class="content">
-            <section class="card_top">
-            </section>
-            <section class="card_body">
-                <div class="number" onclick="getNumbers(0)">0</div>
-                <div class="number" onclick="getNumbers(1)">1</div>
-                <div class="number" onclick="getNumbers(2)">2</div>
-                <div class="number" onclick="getNumbers(3)">3</div>
-                <div class="number" onclick="getNumbers(4)">4</div>
-                <div class="number" onclick="getNumbers(5)">5</div>
-                <div class="number" onclick="getNumbers(6)">6</div>
-                <div class="number" onclick="getNumbers(7)">7</div>
-                <div class="number" onclick="getNumbers(8)">8</div>
-                <div class="number" onclick="getNumbers(9)">9</div>
-                <div class="sinal" id="plus">+</div>
-                <div class="sinal" id="minus">-</div>
-                <div class="sinal" id="mult">*</div>
-                <div class="sinal" id="divi">/</div>
-                <div class="sinal" id="dot">.</div>
-                <div class="enter">
-                    <input type="button" value="" id="enterbtn">
+    <section class="container">
+        <div class="calculator">
+            <form>
+                <div>
+                    <input type="text" name="display">
                 </div>
-            </section>
-        </div>
+                <div>
+                    <input type="button" value="AC">
+                    <input type="button" value="DE">
+                    <input type="button" value=".">
+                    <input type="button" value="/">
+                </div>
+                <div>
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*">
+                </div>
+                <div>
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-">
+                </div>
+                <div>
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="+">
+                </div>
+                <div>
+                    <input type="button" value="00">
+                    <input type="button" value="0">
+                    <input type="button" value="=">
+                </div>
+            </form>
+        </div>        
     </section>
     <script src="assets/js/index.js"></script>
 </body>
